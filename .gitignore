@@ -1,1 +1,18 @@
-node_modules
+# Ignore large data files
+data/users.json
+users.db
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

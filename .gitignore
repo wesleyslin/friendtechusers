@@ -1,6 +1,8 @@
 # Ignore large data files
 data/users.json
 users.db
+data/*.json
+*.db
 
 # Node
 node_modules/

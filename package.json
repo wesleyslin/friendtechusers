@@ -1,0 +1,27 @@
+{
+  "name": "friend.tech-people",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "benchmark-json-setup": "ts-node src/friendtech!.ts",
+    "benchmark-json-lookup": "ts-node src/benchmark.ts",
+    "benchmark-sqlite-setup": "ts-node src/benchmark-sqlite.ts",
+    "benchmark-sqlite-lookup": "ts-node src/benchmark-sqlite-lookup.ts",
+    "benchmark-compare": "ts-node src/benchmark-compare.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "better-sqlite3": "^11.8.1",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
